@@ -4,7 +4,7 @@
 * Version information
 * Author: Dr. Shane Wilson
 * Date:25/09/2017
-* Description: Solution to week 1 number pattern challenge
+* Description: Solution to week 1 points challenge
 *
 * Copyright notice
 */

@@ -29,7 +29,7 @@ int main(int argc, const char * argv[]) {
 
 	char playAgain{ 'y' };
 
-	do{
+	while(playAgain=='y'){
 		num_games++;
 		std::cout << "Please enter the players initial cash: ";
 		std::cin >> cash;
@@ -55,7 +55,7 @@ int main(int argc, const char * argv[]) {
 		std::cout << "\nDo you want to play again? Y/N: "; 
 		std::cin >> playAgain;
 		std::cout << std::endl;
-	} while (playAgain == 'y');
+	} 
 
 	std::cout << "\n" << "The total number of bets: " << bets / num_games; 
 	std::cout << "\nwins: " << wins;
