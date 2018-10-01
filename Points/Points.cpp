@@ -19,7 +19,7 @@ int GenerateThrow();
 
 int main(int argc, const char * argv[]) {
 
-	int playerOneScore{ 11 }, playerTwoScore{ 14 };
+	int playerOneScore{ 12 }, playerTwoScore{ 12 };
 	bool winner{ 0 };
 	int score{ 0 }, numberThrows{ 0 };
 
